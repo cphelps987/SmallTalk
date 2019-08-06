@@ -3,7 +3,30 @@
   <component name="ChangeListManager">
     <list default="true" id="66f1080e-e13e-45cd-86f7-2cf172cf21c5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon_package_v0.16/android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-chrome-192x192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon_package_v0.16/android-chrome-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-chrome-512x512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon_package_v0.16/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/apple-touch-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon_package_v0.16/browserconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/browserconfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon_package_v0.16/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon-16x16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon_package_v0.16/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon_package_v0.16/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon_package_v0.16/mstile-150x150.png" beforeDir="false" afterPath="$PROJECT_DIR$/mstile-150x150.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon_package_v0.16/safari-pinned-tab.svg" beforeDir="false" afterPath="$PROJECT_DIR$/safari-pinned-tab.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon_package_v0.16/site.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/site.webmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ Janie Bartlett.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Janie Bartlett2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ST1 copy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/about_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hero_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/person_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/person_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/person_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/person_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/smalltalkSquare copy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/smalltalkSquare.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="785" column="200" selection-start-line="785" selection-start-column="130" selection-end-line="785" selection-end-column="200" />
+            <state relative-caret-position="106">
+              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
               <folding>
                 <element signature="e#19298#19305#0" expanded="true" />
                 <element signature="e#19973#19980#0" expanded="true" />
@@ -120,24 +143,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565046083290</updated>
-      <workItem from="1565046084558" duration="10037000" />
+      <workItem from="1565046084558" duration="10815000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10037000" />
+    <option name="totallyTimeSpent" value="10815000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="368" y="23" width="1312" height="1012" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3031496" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3031496" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32934782" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32934782" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32934782" />
@@ -193,8 +215,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="785" column="200" selection-start-line="785" selection-start-column="130" selection-end-line="785" selection-end-column="200" />
+        <state relative-caret-position="106">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
           <folding>
             <element signature="e#19298#19305#0" expanded="true" />
             <element signature="e#19973#19980#0" expanded="true" />
