@@ -44,7 +44,8 @@
             <div class="row">
                 <div class="col-6 text-left">
                     <ul class="social-media">
-                        <li><a href="#" target="_blank" class="p-2"><span class="icon-facebook"></span></a></li>
+                        <li><a href="https://www.facebook.com/smalltalkspeechfl/" target="_blank" class="p-2"><span class="icon-facebook"></span></a></li>
+                        <a href="https://www.google.com" target="_blank" class="pl-3 pr-3"><span class="icon-comment"></span></a>
                         <!--<li><a href="#" class="p-2"><span class="icon-twitter"></span></a></li>-->
                         <!--<li><a href="#" class="p-2"><span class="icon-instagram"></span></a></li>-->
                         <!--<li><a href="#" class="p-2"><span class="icon-linkedin"></span></a></li>-->
@@ -67,7 +68,7 @@
             <div class="row align-items-center">
 
                 <div class="col-6 col-xl-2">
-                    <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0"><img src="images/smalltalk.jpg"/></a></h1>
+                    <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0"><img src="images/logo2.jpg"/></a></h1>
                 </div>
                 <div class="col-12 col-md-10 d-none d-xl-block">
                     <nav class="site-navigation position-relative text-right" role="navigation">
@@ -75,17 +76,32 @@
                         <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                             <li><a href="./index.html#home-section" class="nav-link">Home</a></li>
                             <li><a href="./index.html#about-section" class="nav-link">About Us</a></li>
-                            <li><a href="#team-section" class="nav-link">Team</a></li>
-                            <li><a href="./service.html" class="nav-link">Services</a></li>
+                            <li><a href="./index.html#team-section" class="nav-link">Team</a></li>
                             <li><a href="./index.html#testimonials-section" class="nav-link">Testimonials</a></li>
                             <li><a href="./index.html#blog-section" class="nav-link">Blog</a></li>
+                            <li><a href="./index.html#document-section" class="nav-link">Documents</a></li>
                             <li><a href="./index.html#contact-section" class="nav-link">Contact</a></li>
                         </ul>
                     </nav>
                 </div>
 
+                <script>
+                    document.addEventListener('click', function (event) {
 
-                <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a></div>
+                        // If the clicked element doesn't have the right selector, bail
+                        if (!event.target.matches('.nav-link')) return;
+
+                        // Don't follow the link
+                        event.preventDefault();
+
+                        // Log the clicked element in the console
+                        console.log(event.target);
+
+                    }, false);
+                </script>
+
+
+                <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="../" class="site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a></div>
 
             </div>
         </div>
@@ -211,7 +227,8 @@
                         </div>
                         <div class="col-md-3">
                             <h2 class="footer-heading mb-4">Follow Us</h2>
-                            <a href="#" target="_blank" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+                            <a href="https://www.facebook.com/smalltalkspeechfl/" target="_blank" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+                            <a href="https://www.google.com" target="_blank" class="pl-3 pr-3"><span class="icon-comment"></span></a>
                             <!--<a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>-->
                             <!--<a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>-->
                             <!--<a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>-->

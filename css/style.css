@@ -1770,19 +1770,41 @@ img {
 }
 
 
-@media (max-width: 770px) {
-    .lesson {
-        padding-top: 6em; }
-}
+/*@media (max-width: 770px) {*/
+    /*.lesson {*/
+        /*padding-top: 6em; }*/
+/*}*/
 
-@media (min-width: 768px) {
-    .service-section {
-        padding-top: 12em; } }
+/*@media (min-width: 768px) {*/
+    /*.service-section {*/
+        /*padding-top: 12em; } }*/
 
 .site-section.documents {
-    padding: 0;
+    padding-top: 0;
+    padding-bottom: 6em;
+
 }
 
-.TeamSection {
-    padding-top: 12em;
+/*.TeamSection {*/
+    /*padding-top: 12em;*/
+/*}*/
+@media (max-width: 768px) {
+    p {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
+
+@media (max-width: 768px) {
+    p.mb-0 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .unit-4 {
+        padding-bottom: 2em;
+    }
+}
+
