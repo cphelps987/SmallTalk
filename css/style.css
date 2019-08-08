@@ -287,6 +287,10 @@ h1, h2, h3, h4, h5,
     width: 100%; }
 
 /* Navbar */
+
+
+
+
 .site-navbar {
   margin-bottom: 0px;
   z-index: 1999;
@@ -302,7 +306,7 @@ h1, h2, h3, h4, h5,
   .site-navbar .site-navigation .site-menu {
     margin-bottom: 0; }
     .site-navbar .site-navigation .site-menu .active {
-      color: #195eac;
+      color: #e48a5b;
       display: inline-block;
       padding: 5px 20px; }
     .site-navbar .site-navigation .site-menu a {
@@ -312,11 +316,11 @@ h1, h2, h3, h4, h5,
       display: inline-block; }
       .site-navbar .site-navigation .site-menu > li > a {
         padding: 5px 20px;
-        color: #000;
+        color: black;
         display: inline-block;
         text-decoration: none !important; }
         .site-navbar .site-navigation .site-menu > li > a:hover {
-          color: #195eac; }
+          color:  #96c46b; }
     .site-navbar .site-navigation .site-menu .has-children {
       position: relative; }
       .site-navbar .site-navigation .site-menu .has-children > a {
@@ -1724,11 +1728,14 @@ h1, h2, h3, h4, h5,
 .position-relative {
   position: relative; }
 
+
+
+
 .experience {
   position: absolute;
   bottom: -10px;
   right: -10px;
-  background: #195eac;
+  background: #75a23b;
   padding: 20px; }
   @media (max-width: 991.98px) {
     .experience {
@@ -1752,8 +1759,12 @@ h1, h2, h3, h4, h5,
 .footer-subscribe .btn {
   height: 43px; }
 
-.icon-assignment:before , .icon-adb:before {
-    color: #195eac;
+.unit-4 .unit-4-icon span {
+    color: #96c46b;
+}
+
+.icon-assignment:before , .icon-adb:before{
+    color: #f3be4c;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
@@ -1765,9 +1776,16 @@ h1, h2, h3, h4, h5,
     background: #96c46b;
 }
 
-img {
-    max-width: 100%;
+img#logo {
+    max-width: 190%;
 }
+
+@media (max-width: 1199px) {
+    img#logo {
+        max-width: 100%;
+    }
+}
+
 
 
 /*@media (max-width: 770px) {*/
@@ -1789,7 +1807,7 @@ img {
     /*padding-top: 12em;*/
 /*}*/
 @media (max-width: 768px) {
-    p {
+    p.testimonial_quote {
         padding-left: 15px;
         padding-right: 15px;
     }
@@ -1808,3 +1826,18 @@ img {
     }
 }
 
+strong {
+    font-weight: 900;
+}
+
+#ASHA {
+    max-width: inherit;
+}
+
+
+@media (max-width: 768px) {
+    #ASHA {
+        max-width: 220px;
+        padding-bottom: 50px;
+    }
+}
