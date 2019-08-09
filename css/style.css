@@ -1831,13 +1831,13 @@ strong {
 }
 
 #ASHA {
-    max-width: inherit;
+    max-width: 80%;
 }
 
 
 @media (max-width: 768px) {
     #ASHA {
-        max-width: 220px;
-        padding-bottom: 50px;
+        max-width: 30%;
+        padding-top: 50px;
     }
 }
